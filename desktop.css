@@ -1,26 +1,76 @@
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: hsl(210, 46%, 95%);
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
+    color: #ffff;
+    margin-top: 3%;
+    width: 100%;
 }
 
 div.card {
-    border-radius: 15px;
+    border-radius: 10px;
     width: 100%;
     height: 100%;
 }
 
-div.row-group {
-    margin-bottom: 3%;
+img {
+    border-radius: 30px;
 }
 
-img.kira {
-    border-radius: 40px;
+p.person-name {
+    font-size: 20px;
+    font-weight: 500;
 }
 
-p.kira-name {
-    font-size: 12px;
+p.verified {
+    margin-top: -2%;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+p.verified-2 {
+    margin-top: -3%;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+p.card-title {
+    font-size: 20px;
     font-weight: 600;
+}
+
+p.card-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+p.card-description-2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+div.card-1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+div.card-2 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+div.card-3 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+}
+
+div.card-4 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+div.card-5 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
 }
