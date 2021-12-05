@@ -1,0 +1,26 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+div.card {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+div.row-group {
+    margin-bottom: 3%;
+}
+
+img.kira {
+    border-radius: 40px;
+}
+
+p.kira-name {
+    font-size: 12px;
+    font-weight: 600;
+}
