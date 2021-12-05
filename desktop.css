@@ -74,3 +74,7 @@ div.card-5 {
     background-color: hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
 }
+
+div.col-md-8 {
+    margin-bottom: 2%;
+}
