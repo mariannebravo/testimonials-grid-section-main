@@ -2,7 +2,7 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: hsl(210, 46%, 95%);
     color: #ffff;
-    margin-top: 3%;
+    margin-top: 5%;
     width: 100%;
 }
 
@@ -73,8 +73,4 @@ div.card-4 {
 div.card-5 {
     background-color: hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
-}
-
-div.col-md-8 {
-    margin-bottom: 2%;
 }
